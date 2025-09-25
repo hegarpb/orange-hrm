@@ -1,4 +1,4 @@
-package com.orange.hrm.definitions;
+package com.orange.hrm.definitions.auth;
 
 import org.testng.Assert;
 

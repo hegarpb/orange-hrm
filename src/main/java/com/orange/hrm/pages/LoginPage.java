@@ -42,6 +42,7 @@ public class LoginPage {
     public void performLogin(){
         setUsername("Admin");
         setPassword("admin123");
+        clickButtonLogin();
     }
 
     public void performLogin(String username, String password){
