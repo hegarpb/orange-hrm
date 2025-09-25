@@ -8,5 +8,5 @@ Feature: Edit data Employe
     Then muncul data employee yang akan di edit
 
     Examples:
-      | name     |
-      | Isabelle |
+      | name  |
+      | Hegar |
