@@ -18,10 +18,11 @@ public class Hooks {
         // Inisialisasi driver
         driver = DriverUtil.getDriver();
         driver.manage().window().maximize();
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index");
+        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
     }
 
-    // Metode untuk menghentikan driver dan mengambil screenshot. Gunakan @After di sini.
+    // Metode untuk menghentikan driver dan mengambil screenshot. Gunakan @After di
+    // sini.
     @After
     public void tearDown(Scenario scenario) {
         try {

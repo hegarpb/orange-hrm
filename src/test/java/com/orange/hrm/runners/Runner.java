@@ -3,23 +3,17 @@ package com.orange.hrm.runners;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
-@CucumberOptions(
-      features = {
-        "src/test/resources/features/pim"
-        
+@CucumberOptions(features = {
+        "src/test/resources/features/pim/AddEmployee.feature"
 
-
-    },
-    glue = {
-        "com.orange.hrm",                  
+}, glue = {
+        "com.orange.hrm",
         "com.orange.hrm.definitions"
-    },
-    plugin = {
+}, plugin = {
         "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
         "json:target/cucumber-report/cucumber.json"
-    }
-)
+})
 
-public class Runner extends AbstractTestNGCucumberTests{
-    
+public class Runner extends AbstractTestNGCucumberTests {
+
 }
