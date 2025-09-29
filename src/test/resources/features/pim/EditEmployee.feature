@@ -20,5 +20,5 @@ Feature: Edit data Employe
     Then muncul pesan sukses "<pesan>"
 
     Examples:
-      | name | firstName | middleName | lastName | employeeId | otherId | licenseNumber | expiryDate | nationality | maritalStatus | dob        | gender | pesan                |
-      | Jack | Hegar     | P          | B        |     112233 |  332211 |        445566 | 2025-04-09 | American    | Single        | 1997-29-04 | Male   | Successfully Updated |
+      | name     | firstName | middleName | lastName | employeeId | otherId | licenseNumber | expiryDate | nationality | maritalStatus | dob        | gender | pesan                |
+      | Kirigaya | Hegar     | P          | B        |     112233 |  332211 |        445566 | 2025-04-09 | American    | Single        | 1997-29-04 | Male   | Successfully Updated |
