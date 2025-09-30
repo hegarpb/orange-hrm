@@ -1,4 +1,4 @@
 /.vscode
-/pom.xml
-/target
-/test-output
+pom.xml
+target
+test-output
