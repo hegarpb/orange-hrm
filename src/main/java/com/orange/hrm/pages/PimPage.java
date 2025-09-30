@@ -31,6 +31,7 @@ public class PimPage {
     private By lastName = By.xpath("//input[@placeholder='Last Name']");
     private By nickName = By.xpath("//label[normalize-space()='Nickname']");
     private By otherId = By.xpath("//label[normalize-space()='Other Id']");
+    private By employeeId = By.xpath("//label[normalize-space()='Employee Id']");
     private By driverLicenseNumber = By.xpath("//label[normalize-space()=\"Driver's License Number\"]");
     private By licenseExpiredDateEle = By.xpath("(//input[@placeholder='yyyy-dd-mm'])[1]");
     private By ssnNumber = By.xpath("//label[normalize-space()='SSN Number']");
@@ -141,6 +142,17 @@ public class PimPage {
 
         fieldNickName.clear();
         fieldNickName.sendKeys(value);
+    }
+
+    public void setEmployeeId(String value) {
+        WebElement labelEmployeeId = wait.until(ExpectedConditions.visibilityOfElementLocated(employeeId));
+        WebElement fieldEmployeeId = driver.findElement(with(By.tagName("input")).below(labelEmployeeId));
+
+        fieldEmployeeId.click();
+        fieldEmployeeId.sendKeys(Keys.chord(Keys.CONTROL, "a")); // select all
+        fieldEmployeeId.sendKeys(Keys.DELETE); // delete
+        fieldEmployeeId.sendKeys(value);
+
     }
 
     public void setOtherId(String value) {

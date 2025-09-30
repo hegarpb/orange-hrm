@@ -63,7 +63,7 @@ public class EditEmployee {
 
     @And("user mengisi field employee id {string}")
     public void setEmployeeId(String employeeId) {
-
+        pimPage.setEmployeeId(employeeId);
     }
 
     @And("user mengisi field other id {string}")
