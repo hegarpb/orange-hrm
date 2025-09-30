@@ -1,0 +1,5 @@
+com\orange\hrm\utils\DriverManager.class
+com\orange\hrm\App.class
+com\orange\hrm\pages\LoginPage.class
+com\orange\hrm\pages\PimPage.class
+com\orange\hrm\utils\DriverUtil.class

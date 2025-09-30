@@ -1,0 +1,5 @@
+com\orange\hrm\definitions\pim\EditEmployee.class
+com\orange\hrm\definitions\pim\AddEmployee.class
+com\orange\hrm\Hooks.class
+com\orange\hrm\runners\Runner.class
+com\orange\hrm\definitions\auth\Authentication.class
