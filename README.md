@@ -1,5 +1,6 @@
-# Proyek Selenium OrangeHRM
+# Project
 
+“Pengujian Otomatisasi OrangeHRM Menggunakan Selenium WebDriver dengan Framework TestNG dan BDD Cucumber”
 Proyek ini adalah kerangka kerja pengujian otomatisasi untuk aplikasi OrangeHRM. Dibangun menggunakan Java dan memanfaatkan alat pengujian populer untuk memastikan kualitas dan stabilitas aplikasi.
 
 ## Jenis Pengujian
